@@ -1,0 +1,32 @@
+shop:
+  Dirt:
+    MenuItem:
+    - 'lore:&dDIRTTTTTT#&cPrice: 1'
+    - name:&9Dirt
+    - amount:1
+    - type:dirt
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:DIRT
+    PriceType: Money
+    Price: 1.0
+    Message: '&eYou bought %itemname%&e! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Back:
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    RewardType: Shop
+    Reward: menu
+    PriceType: Free
+    ExtraPermission: ''
+    InventoryLocation: 27
+ShopName: Blocks
+DisplayName: '&9&lBlocks'
+signs:
+  text: '[Blocks]'
+  NeedPermissionToCreateSign: true

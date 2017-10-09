@@ -1,0 +1,98 @@
+shop:
+  Stick:
+    MenuItem:
+    - type:STICK
+    - amount:1
+    - name:&aLand Selecter
+    - lore:&dSelect land with this!
+    - amount:1
+    RewardType: Item
+    Reward:
+    - - type:STICK
+      - amount:1
+    PriceType: Free
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Create:
+    MenuItem:
+    - type:BRICK
+    - amount:1
+    - name:&aCreate a residence!
+    - lore:&dCosts a bit of money.
+    - amount:1
+    RewardType: PlayerCommand
+    Reward:
+    - res create
+    PriceType: Free
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Rename:
+    MenuItem:
+    - type:NAME_TAG
+    - amount:1
+    - name:&aRename
+    - lore:&dRename your residence
+    - ItemFlag:HIDE_ATTRIBUTES
+    RewardType: PlayerCommand
+    Reward:
+    - res rename
+    PriceType: Free
+    ExtraPermission: ''
+    InventoryLocation: 3
+  List:
+    MenuItem:
+    - type:PAPER
+    - amount:1
+    - name:&aList
+    - lore:&dList all your residences and tp
+    - ItemFlag:HIDE_ATTRIBUTES
+    RewardType: PlayerCommand
+    Reward:
+    - res list
+    PriceType: Free
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Remove:
+    MenuItem:
+    - type:BARRIER
+    - amount:1
+    - name:&aRemove
+    - lore:&dRemove your residence
+    - ItemFlag:HIDE_ATTRIBUTES
+    RewardType: PlayerCommand
+    Reward:
+    - res remove
+    PriceType: Free
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Chat:
+    MenuItem:
+    - type:BREAD
+    - amount:1
+    - name:&aChat
+    - lore:&dTurn on residence chat
+    - ItemFlag:HIDE_ATTRIBUTES
+    RewardType: PlayerCommand
+    Reward:
+    - res rc
+    PriceType: Free
+    ExtraPermission: ''
+    InventoryLocation: 6
+  RandomTP:
+    MenuItem:
+    - type:COMPASS
+    - amount:1
+    - name:&aRandom TP
+    - lore:&dTeleport to a random area in the wild.
+    - ItemFlag:HIDE_ATTRIBUTES
+    RewardType: PlayerCommand
+    Reward:
+    - res rt
+    PriceType: Free
+    ExtraPermission: ''
+    InventoryLocation: 7
+ShopName: Residence
+DisplayName: '&a&lResidence'
+signs:
+  text: '[Residence]'
+  NeedPermissionToCreateSign: true

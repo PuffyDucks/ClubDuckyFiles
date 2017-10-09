@@ -1,0 +1,203 @@
+shop:
+  Farming:
+    MenuItem:
+    - type:SAPLING
+    - amount:1
+    - name:&9&lFarming &6[+]
+    - lore:&3Here you can buy farming stuff!
+    RewardType: Shop
+    Reward: Farming
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Redstone:
+    MenuItem:
+    - type:Redstone
+    - amount:1
+    - name:&9&lRedstone Shop &6[+]
+    - lore:&3Here you can buy redstone stuff!
+    RewardType: Shop
+    Reward: Redstone
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Food:
+    MenuItem:
+    - type:WHEAT
+    - amount:1
+    - name:&9&lFood Shop &6[+]
+    - lore:&3Here you can buy food!
+    RewardType: Shop
+    Reward: Food
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Mob Drops:
+    MenuItem:
+    - type:BONE
+    - amount:1
+    - name:&9&lMob Drops &6[+]
+    - lore:&3Here you can buy mob drops!
+    RewardType: Shop
+    Reward: Mob Drops
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Ores:
+    MenuItem:
+    - type:DIAMOND
+    - amount:1
+    - name:&9&lOres &6[+]
+    - lore:&3Here you can buy ores!
+    RewardType: Shop
+    Reward: Ores
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Tools:
+    MenuItem:
+    - type:DIAMOND_AXE
+    - amount:1
+    - name:&9&lTool Shop &6[+]
+    - lore:&3Here you can buy tools!
+    RewardType: Shop
+    Reward: Tools
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  PlayerInfo:
+    MenuItem:
+    - name:&6[tools] &c&l%name% Info &6[tools]
+    - 'lore:&2Money: %balance%'
+    - type:SKULL_ITEM
+    - amount:1
+    - durability:3
+    - playerhead:%name%
+    RewardType: Nothing
+    PriceType: Nothing
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+  MenuBuyShop:
+    MenuItem:
+    - type:GRASS
+    - amount:1
+    - name:&9&lBlocks &6[+]
+    - lore:&3Here you can buy blocks!
+    RewardType: Shop
+    Reward: Blocks
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  MenuSellShop:
+    MenuItem:
+    - type:COBBLESTONE
+    - amount:1
+    - name:&b&lSellShop &6[+]
+    - lore:&8Here you can sell Items
+    RewardType: Shop
+    Reward: SellShop
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  MenuPotions:
+    MenuItem:
+    - type:POTION
+    - amount:1
+    - name:&5&lPotions &6[**]
+    - lore:&8Here you can buy Potions
+    - potioneffect:SPEED#1#1
+    - hideflags:all
+    RewardType: Shop
+    Reward: Potions
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: -1
+  MenuSpells:
+    MenuItem:
+    - type:WRITTEN_BOOK
+    - amount:1
+    - name:&4&lSpells &6[*]
+    - lore:&8Here you can buy magical Spells
+    - hideflags:all
+    RewardType: Shop
+    Reward: Spells
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: -1
+  MenuPointShop:
+    MenuItem:
+    - type:DIAMOND
+    - amount:1
+    - name:&6&lPointShop &a[v]
+    - 'lore:&8Here you can buy Points ##&b&lYour Points: &r&9%balancepoints%#&b&lYour
+      Money: &r&9%balance% ##&cOnly for VIPs'
+    RewardType: Shop
+    Reward: PointShop
+    PriceType: Free
+    Message: ''
+    ExtraPermission: Permission.Vip
+    InventoryLocation: -1
+  MenuWarps:
+    MenuItem:
+    - type:PAPER
+    - amount:1
+    - name:&a&lWarps &6[x]
+    - lore:&dTeleportation!
+    RewardType: Shop
+    Reward: Warps
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+  MenuBungeeCordServers:
+    MenuItem:
+    - type:COMPASS
+    - amount:1
+    - name:&c&lServers &6[x]
+    - lore:&8Available Servers &7(Working with BungeeCord)
+    RewardType: Shop
+    Reward: BungeeCordServers
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: -1
+  MenuLilyPadServers:
+    MenuItem:
+    - type:WATER_LILY
+    - amount:1
+    - name:&c&lServers &6[x]
+    - lore:&8Available Servers &7(Working with LilyPad)
+    RewardType: Shop
+    Reward: LilyPadServers
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: -1
+  Residence:
+    MenuItem:
+    - lore:&3Residence Stuff
+    - name:&b&lResidence &6[+]
+    - amount:1
+    - type:BRICK
+    RewardType: Shop
+    Reward: Residence
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+ShopName: Menu
+DisplayName: '&lMenu - mor stuf wil b added'
+signs:
+  text: '[Menu]'
+  NeedPermissionToCreateSign: true

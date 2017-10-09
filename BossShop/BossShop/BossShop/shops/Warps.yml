@@ -1,0 +1,49 @@
+shop:
+  Spawn:
+    MenuItem:
+    - type:COMPASS
+    - amount:1
+    - name:&aSpawn
+    - lore:&8Warp to the Spawn
+    - amount:1
+    RewardType: PlayerCommand
+    Reward:
+    - warp spawn
+    PriceType: Free
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Olive Garden:
+    MenuItem:
+    - type:BREAD
+    - amount:1
+    - name:&l&9Olive Garden
+    - lore:&aC'mon down to the Olive Garden
+    - lore:&aAnd get your free breadsticks!
+    - ItemFlag:HIDE_ATTRIBUTES
+    RewardType: PlayerCommand
+    Reward:
+    - warp OliveGarden
+    PriceType: Free
+    ExtraPermission: ''
+    InventoryLocation: 2
+  ExampleItem:
+    MenuItem:
+    - lore:&cThis example item costs %price% %pricetype%.#&cLine 2#&cLine 3
+    - name:&4&lExample Item
+    - amount:1
+    - type:STONE
+    RewardType: Item
+    Reward:
+    - - name:&8&l%player%'s stone
+      - amount:1
+      - type:STONE
+    PriceType: Money
+    Price: 1000.0
+    Message: '&cYou just purchased an example item for %price% %pricetype%!'
+    ExtraPermission: ''
+    InventoryLocation: 46
+ShopName: Warps
+DisplayName: '&a&lWarps'
+signs:
+  text: '[Warps]'
+  NeedPermissionToCreateSign: true

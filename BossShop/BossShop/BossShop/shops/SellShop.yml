@@ -1,0 +1,170 @@
+shop:
+  Iron:
+    MenuItem:
+    - type:IRON_INGOT
+    - amount:1
+    - name:&b1 Iron
+    - 'lore:&2Reward: 15 '
+    RewardType: Money
+    Reward: 15
+    PriceType: Item
+    Price:
+    - - type:IRON_INGOT
+      - amount:1
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Cobblestone:
+    MenuItem:
+    - type:COBBLESTONE
+    - amount:1
+    - name:&b1 Cobblestone
+    - 'lore:&2Reward: 1 '
+    RewardType: Money
+    Reward: 1
+    PriceType: Item
+    Price:
+    - - type:COBBLESTONE
+      - amount:1
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Diamond:
+    MenuItem:
+    - type:DIAMOND
+    - amount:1
+    - name:&b1 Diamond
+    - 'lore:&2Reward: 160 '
+    RewardType: Money
+    Reward: 160
+    PriceType: Item
+    Price:
+    - - type:DIAMOND
+      - amount:1
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    ExtraPermission: ''
+    InventoryLocation: 6
+  CobblestoneStack:
+    MenuItem:
+    - type:COBBLESTONE
+    - amount:64
+    - name:&b64 Cobblestone
+    - 'lore:&2Reward: 64'
+    RewardType: Money
+    Reward: 64
+    PriceType: Item
+    Price:
+    - - type:COBBLESTONE
+      - amount:64
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    ExtraPermission: ''
+    InventoryLocation: 10
+  Wheat:
+    MenuItem:
+    - type:WHEAT
+    - amount:1
+    - name:&b1 Wheat
+    - 'lore:&2Reward: 2 '
+    RewardType: Money
+    Reward: 2
+    PriceType: Item
+    Price:
+    - - type:WHEAT
+      - amount:1
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    ExtraPermission: ''
+    InventoryLocation: 2
+  WheatStack:
+    MenuItem:
+    - type:WHEAT
+    - amount:64
+    - name:&b1 64 Wheat
+    - 'lore:&2Reward: 128 '
+    RewardType: Money
+    Reward: 128
+    PriceType: Item
+    Price:
+    - - type:WHEAT
+      - amount:64
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    ExtraPermission: ''
+    InventoryLocation: 11
+  Back:
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    RewardType: Shop
+    Reward: menu
+    PriceType: Free
+    Message: '&6Leaving the ItemShop...'
+    ExtraPermission: ''
+    InventoryLocation: 27
+  Coal:
+    MenuItem:
+    - type:COAL
+    - amount:1
+    - name:&b1 Coal
+    - 'lore:&2Reward: 8 '
+    RewardType: Money
+    Reward: 8
+    PriceType: Item
+    Price:
+    - - type:COAL
+      - amount:1
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Gold:
+    MenuItem:
+    - type:GOLD_INGOT
+    - amount:1
+    - name:&b1 Gold
+    - 'lore:&2Reward: 40 '
+    RewardType: Money
+    Reward: 40
+    PriceType: Item
+    Price:
+    - - type:GOLD_INGOT
+      - amount:1
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Lapis:
+    MenuItem:
+    - 'lore:&2Reward: 8 '
+    - name:&b1 Lapis
+    - amount:1
+    - type:INK_SACK
+    - durability:4
+    RewardType: Money
+    Reward: 8.0
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:INK_SACK
+      - durability:4
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    ExtraPermission: ''
+    InventoryLocation: 7
+  Emerald:
+    MenuItem:
+    - type:EMERALD
+    - amount:1
+    - name:&b1 Emerald
+    - 'lore:&2Reward: 100 '
+    RewardType: Money
+    Reward: 100
+    PriceType: Item
+    Price:
+    - - type:EMERALD
+      - amount:1
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    ExtraPermission: ''
+    InventoryLocation: 8
+ShopName: SellShop
+DisplayName: '&b&lSellShop'
+signs:
+  text: '[SellShop]'
+  NeedPermissionToCreateSign: true

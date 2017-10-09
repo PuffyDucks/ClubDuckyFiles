@@ -1,0 +1,65 @@
+shop:
+  Stick:
+    MenuItem:
+    - lore:&aCome on down to the Olive Garden#&aand get your free breadsticks!
+    - name:&9Bread Stick
+    - amount:1
+    - type:Stick
+    RewardType: Item
+    Reward:
+    - - name:&rBread Stick
+      - amount:1
+      - type:STICK
+    PriceType: Money
+    Price: 0.0
+    Message: '&eYou bought %itemname%&e! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Back:
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    RewardType: Shop
+    Reward: menu
+    PriceType: Free
+    ExtraPermission: ''
+    InventoryLocation: 27
+  Elytra:
+    MenuItem:
+    - 'lore:&dFor flying around.#&cPrice: 10,000'
+    - name:&9Elytra
+    - amount:1
+    - type:ELYTRA
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:ELYTRA
+    PriceType: Money
+    Price: 10000.0
+    Message: '&eYou bought %itemname%&e! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Mending:
+    MenuItem:
+    - 'lore:&dFor all your repairing needs!#&cPrice: 15,000'
+    - name:&9Mending Book
+    - amount:1
+    - type:ENCHANTED_BOOK
+    - enchantment:MENDING#1
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:ENCHANTED_BOOK
+      - enchantment:MENDING#1
+    PriceType: Money
+    Price: 15000.0
+    Message: '&eYou bought %itemname%&e! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 12
+ShopName: Tools
+DisplayName: '&9&lTools'
+signs:
+  text: '[Tools]'
+  NeedPermissionToCreateSign: true

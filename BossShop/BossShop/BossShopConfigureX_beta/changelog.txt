@@ -1,0 +1,26 @@
+v1.1.5:
+*[IMPROVE] Improved menubar look
+*[FIX] Add-Item button out of view due to some recent code changes
+
+
+v1.1.4:
+*[FIX] Fixed potioneffect creation resulting in wrong output
+
+
+v1.1.3:
+*[FIX] Fixed bug related to the copy and paste feature
+
+
+v1.1.2:
+*[FIX] Shops became buggy when working with RewardType "Close" or "Nothing"
+
+
+v1.1.1:
+*[ADD] Added new item special: "unbreakable"
+*[ADD] Added a shop-deletion confirmation dialog: No more accidently deleted shops ;-)
+*[IMPROVE] Now Item buttons directly show the amount and type of the selected item instead of just a cryptic "Item" label
+*[IMPROVE] Now you can swap lines in all simple lists (for example lore, commands list or permissions list) by drag and drop
+
+
+v1.1.0:
+*[ADD] Added drag and drop support for item lists: You can now re-order items within your shop

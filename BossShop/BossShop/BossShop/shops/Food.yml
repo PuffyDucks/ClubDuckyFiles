@@ -1,0 +1,32 @@
+shop:
+  Wheat:
+    MenuItem:
+    - 'lore:&dWheat!#&cPrice: 2'
+    - name:&9Wheat
+    - amount:1
+    - type:WHEAT
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:WHEAT
+    PriceType: Money
+    Price: 2.0
+    Message: '&eYou bought %itemname%&e! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Back:
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    RewardType: Shop
+    Reward: menu
+    PriceType: Free
+    ExtraPermission: ''
+    InventoryLocation: 27
+ShopName: Food
+DisplayName: '&9&lFood'
+signs:
+  text: '[Food]'
+  NeedPermissionToCreateSign: true
